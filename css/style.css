@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f4f7;
+    font-family: cursive;
+    background-color:aliceblue;
     color: #333;
     margin: 0;
     padding: 0;
@@ -17,14 +17,26 @@ h1 {
 /* Estilo de los enlaces */
 a {
     text-decoration: none;
+    background-color: antiquewhite;
     color: #3498db;
-    font-size: 1.2rem;
-    margin: 10px 0;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: inline-block; /* Hace que el enlace sea como un bloque */
+    transition: all 0.3s ease;
 }
 
+/* Efecto al pasar el ratón */
 a:hover {
-    color: #1d3557;
-    text-decoration: underline;
+    background-color: #3498db; /* Fondo al pasar el mouse */
+    color: white; /* Cambiar el color del texto */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-decoration: none; /* Sin subrayado al pasar el mouse */
+}
+
+/* Agregar márgenes entre los enlaces */
+a + a {
+    margin-top: 15px;
 }
 
 /* Imagen */
@@ -44,7 +56,7 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -66,7 +78,7 @@ ul {
 }
 
 li {
-    background-color: #e5e5e5;
+    background-color:burlywood;
     margin: 5px 0;
     padding: 8px;
     border-radius: 5px;
