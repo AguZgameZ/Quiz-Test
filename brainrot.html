@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Brainrot Quiz</title>
+        <link rel="stylesheet" href="css/style.css">
+        <base href="https://aguzgamez.github.io/Quiz-Test/">
+    </head>
+    <body>
+        <a href="index.html">Quiz Cultura General</a><br><br>
+        <a href="lol.html">Legue of Legends Quiz</a><br><br>
+        <a href="gd.html">Geometry Dash Quiz</a><br><br>
+        <a href="brainrot.html">Brainrot Quiz</a><br><br>
+        <a href="anatomia.html">Anatomía Quiz</a>
+        <h1>Brainrot Quiz</h1>
+        <img src="img/brainrot.jpg" height="50%" width="50%">
+        <h3>Vas a poder escribir tus respuestas para luego enviarlas, la respuesta<br>tiene que estar escrita igual que la respuesta de la alternativa.</h3>
+        <p>Pongamos a prueba tu nivel de cultura general!</p>
+        <h2>1. ¿Cuál de estas opciones mejor describe el "Goofy Aah" momento?</h2>
+        <ul>
+            <li>a) Cuando abres la puerta de tu casa y te caes por las escaleras</li>
+            <li>b) Cuando ves un meme tan raro que te da miedo</li>
+            <li>c) Cuando estás en una reunión aburrida y te empiezas a reír sin motivo</li>
+            <li>d) Cuando una vaca empieza a bailar salsa en un videoclip</li>
+        </ul>
+        <input type="text" id="entrada1" placeholder="Aquí va tu respuesta">
+        <button onclick="responder1()">Enviar</button>
+        <p id="respuesta1"></p>
+        <h2>2. ¿Qué es lo más "Goofy Aah" que puede suceder durante una partida de Minecraft?</h2>
+        <ul>
+            <li>a) Un Creeper aparece y te mata mientras construyes una casa</li>
+            <li>b) Los mobs se hacen amigos entre ellos y te ignoran</li>
+            <li>c) Te caes en tu propia trampa mientras buscas diamantes</li>
+            <li>d) Aparece un dragón en la aldea y te pide 20 de pan</li>
+        </ul>
+        <input type="text" id="entrada2" placeholder="Aquí va tu respuesta">
+        <button onclick="responder2()">Enviar</button>
+        <p id="respuesta2"></p>
+        <h2>3. ¿Qué haría Waluigi si fuera un personaje en League of Legends?</h2>
+        <ul>
+            <li>a) Lanza plátanos explosivos como habilidad</li>
+            <li>b) Corre en círculos mientras grita "¡WAAH!"</li>
+            <li>c) Aparece y te dice que el juego ha sido cancelado</li>
+            <li>d) Hace una danza extraña y se va aferrado a una espada gigante</li>
+        </ul>
+        <input type="text" id="entrada3" placeholder="Aquí va tu respuesta">
+        <button onclick="responder3()">Enviar</button>
+        <p id="respuesta3"></p>
+        <h2>4. ¿Si fueras un meme, qué tipo de meme serías?</h2>
+        <ul>
+            <li>a) Un Doge con gafas de sol</li>
+            <li>b) Un Trollface diciendo "U MAD?"</li>
+            <li>c) El "gato está enojado" gritando "¡GATO ENOJADO!"</li>
+            <li>d) El "nene con el helado" mirando al infinito</li>
+        </ul>
+        <input type="text" id="entrada4" placeholder="Aquí va tu respuesta">
+        <button onclick="responder4()">Enviar</button>
+        <p id="respuesta4"></p>
+        <h2>5. ¿Cómo reaccionarías si un Creeper te dijera "Hola"?</h2>
+        <ul>
+            <li>a) Le daría un abrazo y un pastel</li>
+            <li>b) Le lanzaría un cubo de agua y lo ignoraría</li>
+            <li>c) Le pediría consejos sobre cómo hacer una fiesta</li>
+            <li>d) Lo miraría como un "Goofy Aah" y correría por mi vida</li>
+        </ul>
+        <input type="text" id="entrada5" placeholder="Aquí va tu respuesta">
+        <button onclick="responder5()">Enviar</button>
+        <p id="respuesta5"></p>
+        <h2>6. ¿Qué harías si de repente tu casa se transformara en un videojuego?</h2>
+        <ul>
+            <li>a) Tiraría un Super Mushroom y crecería al tamaño de un edificio</li>
+            <li>b) Pondría un cartel de "¡Bienvenidos a la zona de pruebas!"</li>
+            <li>c) Empezaría a gritar "¡¡I'M THE KING OF THE WORLD!!"</li>
+            <li>d) Desaparecería misteriosamente en una nube de polvo rosa</li>
+        </ul>
+        <input type="text" id="entrada6" placeholder="Aquí va tu respuesta">
+        <button onclick="responder6()">Enviar</button>
+        <p id="respuesta6"></p>
+        <h2>7. Si un Pikachu se pone a bailar reggaetón, ¿cómo reaccionas?</h2>
+        <ul>
+            <li>a) Comienzas a bailar también y se hace un flashmob</li>
+            <li>b) Empiezas a correr alrededor de la habitación como Sonic</li>
+            <li>c) Te quedas mirando y luego te unes porque es un "mood"</li>
+            <li>d) Te conviertes en un Electrode y explotas de emoción</li>
+        </ul>
+        <input type="text" id="entrada7" placeholder="Aquí va tu respuesta">
+        <button onclick="responder7()">Enviar</button>
+        <p id="respuesta7"></p>
+        <h2>8. Si Shrek viniera a tu fiesta, ¿qué haría primero?</h2>
+        <ul>
+            <li>a) Tomaría todos los snacks y gritaría "¡ESTO ES MI PANTANO!"</li>
+            <li>b) Te pediría que le traigas más cebollas</li>
+            <li>c) Comenzaría a hacer un floss a lo grande</li>
+            <li>d) Se sentaría y te diría "No me importa lo que digas, este es mi hogar"</li>
+        </ul>
+        <input type="text" id="entrada8" placeholder="Aquí va tu respuesta">
+        <button onclick="responder8()">Enviar</button>
+        <p id="respuesta8"></p>
+        <h2>9. ¿Qué harías si te encuentras con un Borat en el metro?</h2>
+        <ul>
+            <li>a) Te preguntarías si está buscando su "muy nice"</li>
+            <li>b) Te pide que lo acompañes a su casa para mostrarte su "muy nice"</li>
+            <li>c) Te haces amigo de él y empiezas a cantar "In my country, we have strong legs"/li>
+            <li>d) Te das cuenta de que estás en una película de Borat y te haces el loco</li>
+        </ul>
+        <input type="text" id="entrada9" placeholder="Aquí va tu respuesta">
+        <button onclick="responder9()">Enviar</button>
+        <p id="respuesta9"></p>
+        <h2>10. Si un Among Us se presentara como candidato en una elección, ¿qué prometería?</h2>
+        <ul>
+            <li>a) Que hará que todos seamos "sospechosos"</li>
+            <li>b) Organizará el mayor evento de emergency meeting</li>
+            <li>c) Prometería "más impostores en cada esquina"</li>
+            <li>d) Dejaría que todos elijan si quieren votar o no, mientras se escabulle en las sombras</li>
+        </ul>
+        <input type="text" id="entrada10" placeholder="Aquí va tu respuesta">
+        <button onclick="responder10()">Enviar</button>
+        <p id="respuesta10"></p>
+        <h3>Siganme a mi cuenta de <a href="https://www.youtube.com/@AguZgameZ">Youtube</a> y<br>tambien a mi cuenta de <a href="https://www.instagram.com/gerardewe/">Instagram</a> y<br>
+        por ultimo a mi cuenta de <a href="https://www.twitch.tv/aguzgamez_oficial">Twitch</a></h3>
+        <script src="js/script4.js"></script>
+    </body>
+</html>

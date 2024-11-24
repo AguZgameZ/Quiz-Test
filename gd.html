@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Geometry Dash Quiz</title>
+        <link rel="stylesheet" href="css/style.css">
+        <base href="https://aguzgamez.github.io/Quiz-Test/">
+    </head>
+    <body>
+        <a href="index.html">Quiz Cultura General</a><br><br>
+        <a href="lol.html">Legue of Legends Quiz</a><br><br>
+        <a href="gd.html">Geometry Dash Quiz</a><br><br>
+        <a href="brainrot.html">Brainrot Quiz</a><br><br>
+        <a href="anatomia.html">Anatomía Quiz</a>
+        <h1>Geometry Dash Quiz!</h1>
+        <img src="img/geometrydash.jpg" height="50%" width="50%">
+        <h3>Vas a poder escribir tus respuestas para luego enviarlas, la respuesta<br>tiene que estar escrita igual que la respuesta de la alternativa.</h3>
+        <p>Pongamos a prueba tu nivel de cultura general!</p>
+        <h2>1. ¿Quién es el creador de Geometry Dash?</h2>
+        <ul>
+            <li>a) Robtop Games</li>
+            <li>b) Supercell</li>
+            <li>c) Mojang</li>
+            <li>d) Epic Games</li>
+        </ul>
+        <input type="text" id="entrada1" placeholder="Aquí va tu respuesta">
+        <button onclick="responder1()">Enviar</button>
+        <p id="respuesta1"></p>
+        <h2>2. ¿En qué año se lanzó la primera versión de Geometry Dash?</h2>
+        <ul>
+            <li>a) 2011</li>
+            <li>b) 2013</li>
+            <li>c) 2015</li>
+            <li>d) 2017</li>
+        </ul>
+        <input type="text" id="entrada2" placeholder="Aquí va tu respuesta">
+        <button onclick="responder2()">Enviar</button>
+        <p id="respuesta2"></p>
+        <h2>3. ¿Cuántos niveles oficiales hay actualmente en el juego base (versión 2.1)?</h2>
+        <ul>
+            <li>a) 20</li>
+            <li>b) 21</li>
+            <li>c) 22</li>
+            <li>d) 19</li>
+        </ul>
+        <input type="text" id="entrada3" placeholder="Aquí va tu respuesta">
+        <button onclick="responder3()">Enviar</button>
+        <p id="respuesta3"></p>
+        <h2>4. ¿Cómo se llama el nivel oficial más difícil creado por RobTop?</h2>
+        <ul>
+            <li>a) Electrodynamix</li>
+            <li>b) Clubstep</li>
+            <li>c) Deadlocked</li>
+            <li>d) Fingerdash</li>
+        </ul>
+        <input type="text" id="entrada4" placeholder="Aquí va tu respuesta">
+        <button onclick="responder4()">Enviar</button>
+        <p id="respuesta4"></p>
+        <h2>5. ¿Qué nombre recibe la moneda especial que se puede recolectar en los niveles?</h2>
+        <ul>
+            <li>a) Estrellas</li>
+            <li>b) Diamantes</li>
+            <li>c) Monedas secretas</li>
+            <li>d) Orbes</li>
+        </ul>
+        <input type="text" id="entrada5" placeholder="Aquí va tu respuesta">
+        <button onclick="responder5()">Enviar</button>
+        <p id="respuesta5"></p>
+        <h2>6. ¿Cuál es el modo de juego en el que controlas a un personaje que puede volar?</h2>
+        <ul>
+            <li>a) Modo Robot</li>
+            <li>b) Modo UFO</li>
+            <li>c) Modo Wave</li>
+            <li>d) Modo Nave</li>
+        </ul>
+        <input type="text" id="entrada6" placeholder="Aquí va tu respuesta">
+        <button onclick="responder6()">Enviar</button>
+        <p id="respuesta6"></p>
+        <h2>7. ¿Qué nivel oficial introdujo por primera vez el "Dual Mode"?</h2>
+        <ul>
+            <li>a) Time Machine</li>
+            <li>b) Electroman Adventures</li>
+            <li>c) Hexagon Force</li>
+            <li>d) Geometrical Dominator</li>
+        </ul>
+        <input type="text" id="entrada7" placeholder="Aquí va tu respuesta">
+        <button onclick="responder7()">Enviar</button>
+        <p id="respuesta7"></p>
+        <h2>8. ¿Qué recurso de la comunidad permite jugar niveles creados por otros jugadores?</h2>
+        <ul>
+            <li>a) Niveles online</li>
+            <li>b) Talleres de niveles</li>
+            <li>c) Editor de mapas</li>
+            <li>d) Portal creativo</li>
+        </ul>
+        <input type="text" id="entrada8" placeholder="Aquí va tu respuesta">
+        <button onclick="responder8()">Enviar</button>
+        <p id="respuesta8"></p>
+        <h2>9. ¿Qué canción es usada en el nivel Theory of Everything?</h2>
+        <ul>
+            <li>a) Geometrical Dominator - Waterflame</li>
+            <li>b) Clutterfunk - DJ Nate</li>
+            <li>c) Theory of Everything - DJ Nate</li>
+            <li>d) Blast Processing - Waterflame</li>
+        </ul>
+        <input type="text" id="entrada9" placeholder="Aquí va tu respuesta">
+        <button onclick="responder9()">Enviar</button>
+        <p id="respuesta9"></p>
+        <h2>10. ¿Qué dificultad tiene el nivel Stereo Madness?</h2>
+        <ul>
+            <li>a) Fácil</li>
+            <li>b) Normal</li>
+            <li>c) Difícil</li>
+            <li>d) Muy difícil</li>
+        </ul>
+        <input type="text" id="entrada10" placeholder="Aquí va tu respuesta">
+        <button onclick="responder10()">Enviar</button>
+        <p id="respuesta10"></p>
+        <h3>Siganme a mi cuenta de <a href="https://www.youtube.com/@AguZgameZ">Youtube</a> y<br>tambien a mi cuenta de <a href="https://www.instagram.com/gerardewe/">Instagram</a> y<br>
+        por ultimo a mi cuenta de <a href="https://www.twitch.tv/aguzgamez_oficial">Twitch</a></h3>
+        <script src="js/script3.js"></script>
+    </body>
+</html>
